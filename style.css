@@ -1433,26 +1433,25 @@ footer p {
   }
 
   /* ARTES */
+  .galeria {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
 
-.galeria {
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-}
+  .modal-conteudo {
+    max-width: 600px;
+  }
 
-.modal-conteudo {
-  max-width: 600px;
-}
+  .modal-conteudo img {
+    width: 50%;
+  }
 
-.modal-conteudo img {
-  width: 50%;
-}
+  .modal-texto h2 {
+    margin-bottom: 20px;
+  }
 
-.modal-texto h2 {
-  margin-bottom: 20px;
-}
-
-.fechar {
-  font-size: 26px;
-}
+  .fechar {
+    font-size: 26px;
+  }
 
 }
 
@@ -1737,6 +1736,11 @@ footer p {
 
   .sobreMim p{
     padding-left: 40px;
+  }
+
+  /* ARTES */
+  .galeria {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 }
 
