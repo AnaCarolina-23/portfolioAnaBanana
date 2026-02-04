@@ -25,6 +25,9 @@ html, body {
   overflow-x: hidden;
 }
 
+header{
+  overflow: hidden;
+}
 
 
 /* CÓDIGO INÍCIO (1) */
@@ -54,8 +57,9 @@ html, body {
   margin: 0;
   padding: 0;
   border: 0;
-  min-height: 100svh;
-  height: auto;
+  min-height: 100dvh;
+  height: 100dvh;
+  min-height: -webkit-fill-available;
   position: relative;
   overflow: hidden;
 }
@@ -1121,6 +1125,10 @@ footer p {
 @media (max-width: 780px) {
 
   /* CAPA */
+  .capaInicio{
+    background-attachment: scroll !important;
+  }
+
   .nome {
     font-size: 80px;
   }
