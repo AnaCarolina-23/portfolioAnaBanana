@@ -739,7 +739,7 @@ footer p {
 
 /* Seta */
 .slide-text .btn-next {
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: auto;
   background: none;
   border: none;
@@ -1056,7 +1056,7 @@ footer p {
   max-height: 520px;
   width: auto;
   object-fit: contain;
-  filter: drop-shadow(5px 5px 8px rgba(0,0,0,0.4));
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.4));
 }
 
 /* Texto */
@@ -1464,27 +1464,27 @@ footer p {
   }
 
   .nome {
-    font-size: 60px;
+    font-size: 80px;
   }
 
   .textoArco text {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .boasVindas p:last-child {
-    font-size: 16px;
+    font-size: 18px;
     margin: 5px;
   }
 
   .capaInicio > p {
     margin-top: 40px;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .capaInicio button {
     margin-top: 32px;
     padding: 8px 40px;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   /* SOBRE MIM */
@@ -1492,7 +1492,7 @@ footer p {
     display: flex;
     flex-direction: column-reverse;
     gap: 10px;
-    padding: 20;
+    padding: 20px;
     padding-top: 20px;
     padding-bottom: 0;
     justify-content: center;
@@ -1505,21 +1505,21 @@ footer p {
   }
 
   .titulo p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .sobreMim p,
   .sobreMim li{
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .sobreMim .infoSobreMim{
-    max-width: 60vh;
+    max-width: 52vh;
   }
 
   .sobreMim h1{
     text-align: center;
-    font-size: 46px;
+    font-size: 52px;
   }
 
   .infoBasica ul{
@@ -1527,11 +1527,11 @@ footer p {
   }
 
   .infoBasica li{
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .textos p {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .tituloArco {
@@ -1539,7 +1539,7 @@ footer p {
   }
 
   .tituloArco text {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   /* PROJETOS */
@@ -1618,14 +1618,14 @@ footer p {
   }
   
   .prjTexto .sub {
-    font-size: 13px;
+    font-size: 12px;
     margin-bottom: 20px;
   }
   
   .prjTexto p {
     font-family: "Montserrat", sans-serif;
     max-width: 540px;
-    font-size: 12px;
+    font-size: 13.6px;
     line-height: 1.6;
   }
 
@@ -1639,19 +1639,19 @@ footer p {
   }
   
   .slide-text h2 {
-    font-size: 12px;
+    font-size: 16px;
   }
   
   .slide-text h3 {
-    font-size: 10px;
+    font-size: 12px;
   }
   
   .slide-text p {
-    font-size: 10px;
+    font-size: 13.6px;
   }
   
   .slide-text .btn-next {
-    margin-top: 10px;
+    margin-top: 8px;
   }
   
   .slide video {
@@ -1664,7 +1664,8 @@ footer p {
 
   /* EVENTOS */
   .carrossel-eventos .slide {
-    gap: 40px;
+    gap: 30px;
+    padding-top: 0;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -1675,20 +1676,20 @@ footer p {
   }
   
   .carrossel-eventos .slide-text {
-    width: 90%;
+    width: 94%;
   }
   
   .carrossel-eventos .slide-text h2 {
-    font-size: 12px;
+    font-size: 14px;
   }
   
   .carrossel-eventos .slide-text h3 {
-    font-size: 10px;
+    font-size: 12px;
   }
   
   .carrossel-eventos .slide-text p {
-    margin-top: 10px;
-    font-size: 10px;
+    margin-top: 5px;
+    font-size: 13.6px;
   }
   
   .carrossel-eventos .slide-text .btn-next img {
